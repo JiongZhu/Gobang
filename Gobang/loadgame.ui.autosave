@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoadGame</class>
+ <widget class="QWidget" name="LoadGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>191</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>411</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>存档名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>游戏类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>存档时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>选择操作</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
